@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Indie Flower";
+  src: url("../fonts/IndieFlower.woff2") format("woff2"),
+       url("../fonts/IndieFlower.woff") format("woff"),
+       url("../fonts/IndieFlower.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1024px;
+  margin: auto;
+}
+
+body {
+  font-family: "Indie Flower";
+}
+
+header {
+  background-color: #50494993;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  background-color: #d1ababb0;
+  padding: 30px;
+  align-items: center;
+}
+
+main {
+  width: 65%;
+  background-color: #d6bfa28f;
+  padding: 30px;
+}
+
+footer {
+  background-color: #50494993;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+section {
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 55px;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 4px;
+}
+
+p {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+li {
+  list-style: inside;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo {
+  width: 250px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
